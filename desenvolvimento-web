@@ -3,42 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividades de Desenvolvimento Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 20px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Desenvolvimento Web</title>
 </head>
 <body>
-    <h1>Atividades de Desenvolvimento Web</h1>
-    <ul>
-        <li><a href="atividade1/index.html">Atividade 1</a></li>
-        <li><a href="atividade2/index.html">Atividade 2</a></li>
-        <li><a href="atividade3/index.html">Atividade 3</a></li>
-    </ul>
-    <a href="../index.html">Voltar para a página inicial</a>
+    <h1>Página de Desenvolvimento Web</h1>
+    <p>Bem-vindo à página onde estão minhas atividades de desenvolvimento web.</p>
 </body>
 </html>
