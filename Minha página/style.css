@@ -1,90 +1,46 @@
-body {
-  width: 100%;
-  height: 100vh;
-  background-image: url("background.jpg");
-  background-size: cover;
-  font-family: 'Times New Roman', Times, serif;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versão</title>
 
-header {
-  background-color:#F4E6D1;
-  text-align: center;
-  padding: 10px;
-}
+    <link rel="stylesheet" href="style.css">
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-nav li {
-  margin: 0 15px;
-}
+</head>
+<body> 
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">
+                        <i class="material-icons">home</i> 
+                        Home
+                    </a>
+                </li>
 
-nav a {
-  color: #6A7F3D;
-  align-items: center;
-  text-decoration: none;
- 
-}
+                <li>
+                    <a href="aluna.html">
+                        <i class="material-icons">face_2</i> 
+                        Aluna
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-nav a i {
-  width: 40px;
-  height: 40px;
-}
+    <div class="bottom-line"></div>
 
-nav a:hover {
-  color:#8A9E58;
-}
-
-.bottom-line {
-  border-bottom: 6px solid #6A7F3D;
-}
-
-.conteudo {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.quadrado {
-  background-color: #F4E6D1;
-  width: 90%;
-  height: auto;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 50px;
-}
-
-.quadrado h1 {
-  font-size: 40px;
-  color:#6A7F3D;
-}
-
-.quadrado ul {
-  text-align: left;
-  font-size: 20px;
-  color: #6A7F3D;
-}
-
-.quadrado ul a {
-  list-style: none;
-  text-decoration: none;
-  font-size: 20px;
-  color: #6A7F3D;
-}
-
-.quadrado ul a:hover {
-  color:#8A9E58;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    justify-content: space-around;
-  }
-  
-  nav a {
-    font-size: 18px;  
-    padding: 10px 20px;  
-  }
-}
+    <section class="conteudo">
+        <div class="quadrado"> 
+            <h1>Sobre a página:</h1>
+            <ul>
+                <p>Essa página está sujeita a constantes atualizações.</p>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
