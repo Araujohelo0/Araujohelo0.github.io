@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e8f5e9;
-    color: #2e7d32;
+    background-color: #e8f5e9; /* Verde claro */
+    color: #2e7d32; /* Verde escuro */
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #66bb6a;
+    background-color: #388e3c; /* Verde médio */
     padding: 15px;
     color: white;
 }
@@ -33,23 +33,38 @@ main {
     margin-top: 20px;
 }
 
-ul {
+.atividades ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.atividades ul li {
     padding: 10px;
-    background-color: #a5d6a7;
+    background-color: #a5d6a7; /* Verde mais claro */
     margin: 5px;
+    border-radius: 5px;
 }
 
-ul li a {
+.atividades ul li a {
     text-decoration: none;
     color: #2e7d32;
     font-weight: bold;
 }
 
-ul li:hover {
-    background-color: #81c784;
+.atividades ul li:hover {
+    background-color: #81c784; /* Verde intermediário */
+}
+
+/* Estilização da seção Aluna */
+.titulo-com-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo-com-imagem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
